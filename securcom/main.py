@@ -1,7 +1,8 @@
 import packetsend
+import client
 
-pseudo = input("ton pseudo")
+message = input("Message : ")
+pseudo = "Pingdsd"
 
-message = input("entez votre message : ")
-
-packetsend.Packet.send(message=message)
+client.receive()
+packetsend.send()
